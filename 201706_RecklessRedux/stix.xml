@@ -1,0 +1,306 @@
+<stix:STIX_Package 
+	xmlns:cyboxCommon="http://cybox.mitre.org/common-2"
+	xmlns:cybox="http://cybox.mitre.org/cybox-2"
+	xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2"
+	xmlns:ASObj="http://cybox.mitre.org/objects#ASObject-1"
+	xmlns:AddressObj="http://cybox.mitre.org/objects#AddressObject-2"
+	xmlns:DomainNameObj="http://cybox.mitre.org/objects#DomainNameObject-1"
+	xmlns:EmailMessageObj="http://cybox.mitre.org/objects#EmailMessageObject-2"
+	xmlns:FileObj="http://cybox.mitre.org/objects#FileObject-2"
+	xmlns:HTTPSessionObj="http://cybox.mitre.org/objects#HTTPSessionObject-2"
+	xmlns:HostnameObj="http://cybox.mitre.org/objects#HostnameObject-1"
+	xmlns:MutexObj="http://cybox.mitre.org/objects#MutexObject-2"
+	xmlns:PipeObj="http://cybox.mitre.org/objects#PipeObject-2"
+	xmlns:URIObj="http://cybox.mitre.org/objects#URIObject-2"
+	xmlns:WinRegistryKeyObj="http://cybox.mitre.org/objects#WinRegistryKeyObject-2"
+	xmlns:marking="http://data-marking.mitre.org/Marking-1"
+	xmlns:tlpMarking="http://data-marking.mitre.org/extensions/MarkingStructure#TLP-1"
+	xmlns:et="http://stix.mitre.org/ExploitTarget-1"
+	xmlns:incident="http://stix.mitre.org/Incident-1"
+	xmlns:indicator="http://stix.mitre.org/Indicator-2"
+	xmlns:ttp="http://stix.mitre.org/TTP-1"
+	xmlns:ta="http://stix.mitre.org/ThreatActor-1"
+	xmlns:stixCommon="http://stix.mitre.org/common-1"
+	xmlns:stixVocabs="http://stix.mitre.org/default_vocabularies-1"
+	xmlns:stix-ciqidentity="http://stix.mitre.org/extensions/Identity#CIQIdentity3.0-1"
+	xmlns:snortTM="http://stix.mitre.org/extensions/TestMechanism#Snort-1"
+	xmlns:stix="http://stix.mitre.org/stix-1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xal="urn:oasis:names:tc:ciq:xal:3"
+	xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3"
+	xmlns:xpil="urn:oasis:names:tc:ciq:xpil:3"
+	xsi:schemaLocation="
+	http://cybox.mitre.org/common-2 http://cybox.mitre.org/XMLSchema/common/2.1/cybox_common.xsd
+	http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.1/cybox_core.xsd
+	http://cybox.mitre.org/default_vocabularies-2 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.1/cybox_default_vocabularies.xsd
+	http://cybox.mitre.org/objects#ASObject-1 http://cybox.mitre.org/XMLSchema/objects/AS/1.0/AS_Object.xsd
+	http://cybox.mitre.org/objects#AddressObject-2 http://cybox.mitre.org/XMLSchema/objects/Address/2.1/Address_Object.xsd
+	http://cybox.mitre.org/objects#DomainNameObject-1 http://cybox.mitre.org/XMLSchema/objects/Domain_Name/1.0/Domain_Name_Object.xsd
+	http://cybox.mitre.org/objects#EmailMessageObject-2 http://cybox.mitre.org/XMLSchema/objects/Email_Message/2.1/Email_Message_Object.xsd
+	http://cybox.mitre.org/objects#FileObject-2 http://cybox.mitre.org/XMLSchema/objects/File/2.1/File_Object.xsd
+	http://cybox.mitre.org/objects#HTTPSessionObject-2 http://cybox.mitre.org/XMLSchema/objects/HTTP_Session/2.1/HTTP_Session_Object.xsd
+	http://cybox.mitre.org/objects#HostnameObject-1 http://cybox.mitre.org/XMLSchema/objects/Hostname/1.0/Hostname_Object.xsd
+	http://cybox.mitre.org/objects#MutexObject-2 http://cybox.mitre.org/XMLSchema/objects/Mutex/2.1/Mutex_Object.xsd
+	http://cybox.mitre.org/objects#PipeObject-2 http://cybox.mitre.org/XMLSchema/objects/Pipe/2.1/Pipe_Object.xsd
+	http://cybox.mitre.org/objects#URIObject-2 http://cybox.mitre.org/XMLSchema/objects/URI/2.1/URI_Object.xsd
+	http://cybox.mitre.org/objects#WinRegistryKeyObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Registry_Key/2.1/Win_Registry_Key_Object.xsd
+	http://data-marking.mitre.org/Marking-1 http://stix.mitre.org/XMLSchema/data_marking/1.1.1/data_marking.xsd
+	http://data-marking.mitre.org/extensions/MarkingStructure#TLP-1 http://stix.mitre.org/XMLSchema/extensions/marking/tlp/1.1.1/tlp_marking.xsd
+	http://stix.mitre.org/ExploitTarget-1 http://stix.mitre.org/XMLSchema/exploit_target/1.1.1/exploit_target.xsd
+	http://stix.mitre.org/Incident-1 http://stix.mitre.org/XMLSchema/incident/1.1.1/incident.xsd
+	http://stix.mitre.org/Indicator-2 http://stix.mitre.org/XMLSchema/indicator/2.1.1/indicator.xsd
+	http://stix.mitre.org/TTP-1 http://stix.mitre.org/XMLSchema/ttp/1.1.1/ttp.xsd
+	http://stix.mitre.org/ThreatActor-1 http://stix.mitre.org/XMLSchema/threat_actor/1.1.1/threat_actor.xsd
+	http://stix.mitre.org/common-1 http://stix.mitre.org/XMLSchema/common/1.1.1/stix_common.xsd
+	http://stix.mitre.org/default_vocabularies-1 http://stix.mitre.org/XMLSchema/default_vocabularies/1.1.1/stix_default_vocabularies.xsd
+	http://stix.mitre.org/extensions/Identity#CIQIdentity3.0-1 http://stix.mitre.org/XMLSchema/extensions/identity/ciq_3.0/1.1.1/ciq_3.0_identity.xsd
+	http://stix.mitre.org/extensions/TestMechanism#Snort-1 http://stix.mitre.org/XMLSchema/extensions/test_mechanism/snort/1.1.1/snort_test_mechanism.xsd
+	http://stix.mitre.org/stix-1 http://stix.mitre.org/XMLSchema/core/1.1.1/stix_core.xsd
+	urn:oasis:names:tc:ciq:xal:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xAL.xsd
+	urn:oasis:names:tc:ciq:xnl:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xNL.xsd
+	urn:oasis:names:tc:ciq:xpil:3 http://stix.mitre.org/XMLSchema/external/oasis_ciq_3.0/xPIL.xsd" id=":Package-ef74f3fb-1f61-4d13-852d-918cfdea5669" version="1.1.1" timestamp="2017-06-29T14:41:32.031817+00:00">
+    <stix:STIX_Header>
+        <stix:Title>Export from  MISP</stix:Title>
+        <stix:Package_Intent xsi:type="stixVocabs:PackageIntentVocab-1.0">Threat Report</stix:Package_Intent>
+    </stix:STIX_Header>
+    <stix:Related_Packages>
+        <stix:Related_Package>
+            <stix:Package id=":STIXPackage-59550bab-3ce0-48c3-ba55-06b28e96ca05" version="1.1.1" timestamp="2017-06-29T10:18:35+00:00">
+                <stix:STIX_Header>
+                    <stix:Title>Reckless Redux: Senior Mexican Legislators and Politicians Targeted with NSO Spyware (MISP Event #107)</stix:Title>
+                    <stix:Package_Intent xsi:type="stixVocabs:PackageIntentVocab-1.0">Threat Report</stix:Package_Intent>
+                </stix:STIX_Header>
+                <stix:Incidents>
+                    <stix:Incident id=":incident-59550bab-3ce0-48c3-ba55-06b28e96ca05" timestamp="2017-06-29T10:18:44+00:00" xsi:type='incident:IncidentType'>
+                        <incident:Title>Reckless Redux: Senior Mexican Legislators and Politicians Targeted with NSO Spyware</incident:Title>
+                        <incident:External_ID source="MISP Event">107</incident:External_ID>
+                        <incident:Time>
+                            <incident:Incident_Discovery precision="second">2017-06-29T00:00:00+00:00</incident:Incident_Discovery>
+                            <incident:Incident_Reported precision="second">2017-06-29T10:18:44+00:00</incident:Incident_Reported>
+                        </incident:Time>
+                        <incident:Status xsi:type="stixVocabs:IncidentStatusVocab-1.0">Closed</incident:Status>
+                        <incident:Related_Indicators>
+                            <incident:Related_Indicator>
+                                <stixCommon:Relationship>Network activity</stixCommon:Relationship>
+                                <stixCommon:Indicator id=":indicator-59550c3b-22ac-4348-add4-06b38e96ca05" timestamp="2017-06-29T10:18:35+00:00" xsi:type='indicator:IndicatorType'>
+                                    <indicator:Title>Network activity: smsmensaje.mx (MISP Attribute #16345)</indicator:Title>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">Malware Artifacts</indicator:Type>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">Domain Watchlist</indicator:Type>
+                                    <indicator:Description>Network activity: smsmensaje.mx (MISP Attribute #16345)</indicator:Description>
+                                    <indicator:Valid_Time_Position/>
+                                    <indicator:Observable id=":observable-59550c3b-22ac-4348-add4-06b38e96ca05">
+                                        <cybox:Object id=":DomainName-59550c3b-22ac-4348-add4-06b38e96ca05">
+                                            <cybox:Properties xsi:type="DomainNameObj:DomainNameObjectType">
+                                                <DomainNameObj:Value condition="Equals">smsmensaje.mx</DomainNameObj:Value>
+                                            </cybox:Properties>
+                                        </cybox:Object>
+                                    </indicator:Observable>
+                                    <indicator:Confidence timestamp="2017-06-29T10:18:35+00:00">
+                                        <stixCommon:Value xsi:type="stixVocabs:HighMediumLowVocab-1.0">High</stixCommon:Value>
+                                        <stixCommon:Description>Derived from MISP's IDS flag. If an attribute is marked for IDS exports, the confidence will be high, otherwise none</stixCommon:Description>
+                                    </indicator:Confidence>
+                                </stixCommon:Indicator>
+                            </incident:Related_Indicator>
+                            <incident:Related_Indicator>
+                                <stixCommon:Relationship>Network activity</stixCommon:Relationship>
+                                <stixCommon:Indicator id=":indicator-59550c2c-d8dc-4c5c-a8e7-06b28e96ca05" timestamp="2017-06-29T10:18:20+00:00" xsi:type='indicator:IndicatorType'>
+                                    <indicator:Title>Network activity: http://bit.ly/29F2psM (MISP Attribute #16337)</indicator:Title>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">Malware Artifacts</indicator:Type>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">URL Watchlist</indicator:Type>
+                                    <indicator:Description>Network activity: http://bit.ly/29F2psM (MISP Attribute #16337)</indicator:Description>
+                                    <indicator:Valid_Time_Position/>
+                                    <indicator:Observable id=":observable-59550c2c-d8dc-4c5c-a8e7-06b28e96ca05">
+                                        <cybox:Object id=":URI-59550c2c-d8dc-4c5c-a8e7-06b28e96ca05">
+                                            <cybox:Properties xsi:type="URIObj:URIObjectType">
+                                                <URIObj:Value condition="Equals">http://bit.ly/29F2psM</URIObj:Value>
+                                            </cybox:Properties>
+                                        </cybox:Object>
+                                    </indicator:Observable>
+                                    <indicator:Confidence timestamp="2017-06-29T10:18:20+00:00">
+                                        <stixCommon:Value xsi:type="stixVocabs:HighMediumLowVocab-1.0">High</stixCommon:Value>
+                                        <stixCommon:Description>Derived from MISP's IDS flag. If an attribute is marked for IDS exports, the confidence will be high, otherwise none</stixCommon:Description>
+                                    </indicator:Confidence>
+                                </stixCommon:Indicator>
+                            </incident:Related_Indicator>
+                            <incident:Related_Indicator>
+                                <stixCommon:Relationship>Network activity</stixCommon:Relationship>
+                                <stixCommon:Indicator id=":indicator-59550c2c-3820-4007-8f14-06b28e96ca05" timestamp="2017-06-29T10:18:20+00:00" xsi:type='indicator:IndicatorType'>
+                                    <indicator:Title>Network activity: https://smsmensaje.mx/8306090s/ (MISP Attribute #16338)</indicator:Title>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">Malware Artifacts</indicator:Type>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">URL Watchlist</indicator:Type>
+                                    <indicator:Description>Network activity: https://smsmensaje.mx/8306090s/ (MISP Attribute #16338)</indicator:Description>
+                                    <indicator:Valid_Time_Position/>
+                                    <indicator:Observable id=":observable-59550c2c-3820-4007-8f14-06b28e96ca05">
+                                        <cybox:Object id=":URI-59550c2c-3820-4007-8f14-06b28e96ca05">
+                                            <cybox:Properties xsi:type="URIObj:URIObjectType">
+                                                <URIObj:Value condition="Equals">https://smsmensaje.mx/8306090s/</URIObj:Value>
+                                            </cybox:Properties>
+                                        </cybox:Object>
+                                    </indicator:Observable>
+                                    <indicator:Confidence timestamp="2017-06-29T10:18:20+00:00">
+                                        <stixCommon:Value xsi:type="stixVocabs:HighMediumLowVocab-1.0">High</stixCommon:Value>
+                                        <stixCommon:Description>Derived from MISP's IDS flag. If an attribute is marked for IDS exports, the confidence will be high, otherwise none</stixCommon:Description>
+                                    </indicator:Confidence>
+                                </stixCommon:Indicator>
+                            </incident:Related_Indicator>
+                            <incident:Related_Indicator>
+                                <stixCommon:Relationship>Network activity</stixCommon:Relationship>
+                                <stixCommon:Indicator id=":indicator-59550c2c-7530-43d1-96c0-06b28e96ca05" timestamp="2017-06-29T10:18:20+00:00" xsi:type='indicator:IndicatorType'>
+                                    <indicator:Title>Network activity: http://bit.ly/1WONumj (MISP Attribute #16339)</indicator:Title>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">Malware Artifacts</indicator:Type>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">URL Watchlist</indicator:Type>
+                                    <indicator:Description>Network activity: http://bit.ly/1WONumj (MISP Attribute #16339)</indicator:Description>
+                                    <indicator:Valid_Time_Position/>
+                                    <indicator:Observable id=":observable-59550c2c-7530-43d1-96c0-06b28e96ca05">
+                                        <cybox:Object id=":URI-59550c2c-7530-43d1-96c0-06b28e96ca05">
+                                            <cybox:Properties xsi:type="URIObj:URIObjectType">
+                                                <URIObj:Value condition="Equals">http://bit.ly/1WONumj</URIObj:Value>
+                                            </cybox:Properties>
+                                        </cybox:Object>
+                                    </indicator:Observable>
+                                    <indicator:Confidence timestamp="2017-06-29T10:18:20+00:00">
+                                        <stixCommon:Value xsi:type="stixVocabs:HighMediumLowVocab-1.0">High</stixCommon:Value>
+                                        <stixCommon:Description>Derived from MISP's IDS flag. If an attribute is marked for IDS exports, the confidence will be high, otherwise none</stixCommon:Description>
+                                    </indicator:Confidence>
+                                </stixCommon:Indicator>
+                            </incident:Related_Indicator>
+                            <incident:Related_Indicator>
+                                <stixCommon:Relationship>Network activity</stixCommon:Relationship>
+                                <stixCommon:Indicator id=":indicator-59550c2c-aa30-4e89-831d-06b28e96ca05" timestamp="2017-06-29T10:18:20+00:00" xsi:type='indicator:IndicatorType'>
+                                    <indicator:Title>Network activity: https://smsmensaje.mx/4995075s/ (MISP Attribute #16340)</indicator:Title>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">Malware Artifacts</indicator:Type>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">URL Watchlist</indicator:Type>
+                                    <indicator:Description>Network activity: https://smsmensaje.mx/4995075s/ (MISP Attribute #16340)</indicator:Description>
+                                    <indicator:Valid_Time_Position/>
+                                    <indicator:Observable id=":observable-59550c2c-aa30-4e89-831d-06b28e96ca05">
+                                        <cybox:Object id=":URI-59550c2c-aa30-4e89-831d-06b28e96ca05">
+                                            <cybox:Properties xsi:type="URIObj:URIObjectType">
+                                                <URIObj:Value condition="Equals">https://smsmensaje.mx/4995075s/</URIObj:Value>
+                                            </cybox:Properties>
+                                        </cybox:Object>
+                                    </indicator:Observable>
+                                    <indicator:Confidence timestamp="2017-06-29T10:18:20+00:00">
+                                        <stixCommon:Value xsi:type="stixVocabs:HighMediumLowVocab-1.0">High</stixCommon:Value>
+                                        <stixCommon:Description>Derived from MISP's IDS flag. If an attribute is marked for IDS exports, the confidence will be high, otherwise none</stixCommon:Description>
+                                    </indicator:Confidence>
+                                </stixCommon:Indicator>
+                            </incident:Related_Indicator>
+                            <incident:Related_Indicator>
+                                <stixCommon:Relationship>Network activity</stixCommon:Relationship>
+                                <stixCommon:Indicator id=":indicator-59550c2c-a2f8-4861-af47-06b28e96ca05" timestamp="2017-06-29T10:18:20+00:00" xsi:type='indicator:IndicatorType'>
+                                    <indicator:Title>Network activity: http://bit.ly/1WRYHm8 (MISP Attribute #16341)</indicator:Title>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">Malware Artifacts</indicator:Type>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">URL Watchlist</indicator:Type>
+                                    <indicator:Description>Network activity: http://bit.ly/1WRYHm8 (MISP Attribute #16341)</indicator:Description>
+                                    <indicator:Valid_Time_Position/>
+                                    <indicator:Observable id=":observable-59550c2c-a2f8-4861-af47-06b28e96ca05">
+                                        <cybox:Object id=":URI-59550c2c-a2f8-4861-af47-06b28e96ca05">
+                                            <cybox:Properties xsi:type="URIObj:URIObjectType">
+                                                <URIObj:Value condition="Equals">http://bit.ly/1WRYHm8</URIObj:Value>
+                                            </cybox:Properties>
+                                        </cybox:Object>
+                                    </indicator:Observable>
+                                    <indicator:Confidence timestamp="2017-06-29T10:18:20+00:00">
+                                        <stixCommon:Value xsi:type="stixVocabs:HighMediumLowVocab-1.0">High</stixCommon:Value>
+                                        <stixCommon:Description>Derived from MISP's IDS flag. If an attribute is marked for IDS exports, the confidence will be high, otherwise none</stixCommon:Description>
+                                    </indicator:Confidence>
+                                </stixCommon:Indicator>
+                            </incident:Related_Indicator>
+                            <incident:Related_Indicator>
+                                <stixCommon:Relationship>Network activity</stixCommon:Relationship>
+                                <stixCommon:Indicator id=":indicator-59550c2c-0184-45e7-935a-06b28e96ca05" timestamp="2017-06-29T10:18:20+00:00" xsi:type='indicator:IndicatorType'>
+                                    <indicator:Title>Network activity: https://smsmensaje.mx/1351276s/ (MISP Attribute #16342)</indicator:Title>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">Malware Artifacts</indicator:Type>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">URL Watchlist</indicator:Type>
+                                    <indicator:Description>Network activity: https://smsmensaje.mx/1351276s/ (MISP Attribute #16342)</indicator:Description>
+                                    <indicator:Valid_Time_Position/>
+                                    <indicator:Observable id=":observable-59550c2c-0184-45e7-935a-06b28e96ca05">
+                                        <cybox:Object id=":URI-59550c2c-0184-45e7-935a-06b28e96ca05">
+                                            <cybox:Properties xsi:type="URIObj:URIObjectType">
+                                                <URIObj:Value condition="Equals">https://smsmensaje.mx/1351276s/</URIObj:Value>
+                                            </cybox:Properties>
+                                        </cybox:Object>
+                                    </indicator:Observable>
+                                    <indicator:Confidence timestamp="2017-06-29T10:18:20+00:00">
+                                        <stixCommon:Value xsi:type="stixVocabs:HighMediumLowVocab-1.0">High</stixCommon:Value>
+                                        <stixCommon:Description>Derived from MISP's IDS flag. If an attribute is marked for IDS exports, the confidence will be high, otherwise none</stixCommon:Description>
+                                    </indicator:Confidence>
+                                </stixCommon:Indicator>
+                            </incident:Related_Indicator>
+                            <incident:Related_Indicator>
+                                <stixCommon:Relationship>Network activity</stixCommon:Relationship>
+                                <stixCommon:Indicator id=":indicator-59550c2c-ef48-4348-902f-06b28e96ca05" timestamp="2017-06-29T10:18:20+00:00" xsi:type='indicator:IndicatorType'>
+                                    <indicator:Title>Network activity: http://bit.ly/1UUsVi6 (MISP Attribute #16343)</indicator:Title>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">Malware Artifacts</indicator:Type>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">URL Watchlist</indicator:Type>
+                                    <indicator:Description>Network activity: http://bit.ly/1UUsVi6 (MISP Attribute #16343)</indicator:Description>
+                                    <indicator:Valid_Time_Position/>
+                                    <indicator:Observable id=":observable-59550c2c-ef48-4348-902f-06b28e96ca05">
+                                        <cybox:Object id=":URI-59550c2c-ef48-4348-902f-06b28e96ca05">
+                                            <cybox:Properties xsi:type="URIObj:URIObjectType">
+                                                <URIObj:Value condition="Equals">http://bit.ly/1UUsVi6</URIObj:Value>
+                                            </cybox:Properties>
+                                        </cybox:Object>
+                                    </indicator:Observable>
+                                    <indicator:Confidence timestamp="2017-06-29T10:18:20+00:00">
+                                        <stixCommon:Value xsi:type="stixVocabs:HighMediumLowVocab-1.0">High</stixCommon:Value>
+                                        <stixCommon:Description>Derived from MISP's IDS flag. If an attribute is marked for IDS exports, the confidence will be high, otherwise none</stixCommon:Description>
+                                    </indicator:Confidence>
+                                </stixCommon:Indicator>
+                            </incident:Related_Indicator>
+                            <incident:Related_Indicator>
+                                <stixCommon:Relationship>Network activity</stixCommon:Relationship>
+                                <stixCommon:Indicator id=":indicator-59550c2c-9e44-4b22-b65a-06b28e96ca05" timestamp="2017-06-29T10:18:20+00:00" xsi:type='indicator:IndicatorType'>
+                                    <indicator:Title>Network activity: https://smsmensaje.mx/9993247s/ (MISP Attribute #16344)</indicator:Title>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">Malware Artifacts</indicator:Type>
+                                    <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">URL Watchlist</indicator:Type>
+                                    <indicator:Description>Network activity: https://smsmensaje.mx/9993247s/ (MISP Attribute #16344)</indicator:Description>
+                                    <indicator:Valid_Time_Position/>
+                                    <indicator:Observable id=":observable-59550c2c-9e44-4b22-b65a-06b28e96ca05">
+                                        <cybox:Object id=":URI-59550c2c-9e44-4b22-b65a-06b28e96ca05">
+                                            <cybox:Properties xsi:type="URIObj:URIObjectType">
+                                                <URIObj:Value condition="Equals">https://smsmensaje.mx/9993247s/</URIObj:Value>
+                                            </cybox:Properties>
+                                        </cybox:Object>
+                                    </indicator:Observable>
+                                    <indicator:Confidence timestamp="2017-06-29T10:18:20+00:00">
+                                        <stixCommon:Value xsi:type="stixVocabs:HighMediumLowVocab-1.0">High</stixCommon:Value>
+                                        <stixCommon:Description>Derived from MISP's IDS flag. If an attribute is marked for IDS exports, the confidence will be high, otherwise none</stixCommon:Description>
+                                    </indicator:Confidence>
+                                </stixCommon:Indicator>
+                            </incident:Related_Indicator>
+                        </incident:Related_Indicators>
+                        <incident:History>
+                            <incident:History_Item>
+                                <incident:Journal_Entry time_precision="second">Event Threat Level: Medium</incident:Journal_Entry>
+                            </incident:History_Item>
+                            <incident:History_Item>
+                                <incident:Journal_Entry time_precision="second">MISP Tag: SOURCE:CITIZENLAB</incident:Journal_Entry>
+                            </incident:History_Item>
+                            <incident:History_Item>
+                                <incident:Journal_Entry time_precision="second">MISP Tag: PUBLISHED</incident:Journal_Entry>
+                            </incident:History_Item>
+                            <incident:History_Item>
+                                <incident:Journal_Entry time_precision="second">MISP Tag: TLP:WHITE</incident:Journal_Entry>
+                            </incident:History_Item>
+                            <incident:History_Item>
+                                <incident:Journal_Entry time_precision="second">MISP Tag: TARGET:MEXICO</incident:Journal_Entry>
+                            </incident:History_Item>
+                        </incident:History>
+                        <incident:Information_Source>
+                            <stixCommon:Identity>
+                                <stixCommon:Name>citizenlab</stixCommon:Name>
+                            </stixCommon:Identity>
+                        </incident:Information_Source>
+                        <incident:Handling>
+                            <marking:Marking>
+                                <marking:Controlled_Structure>../../../descendant-or-self::node()</marking:Controlled_Structure>
+                                <marking:Marking_Structure xsi:type='tlpMarking:TLPMarkingStructureType' color="GREEN"/>
+                            </marking:Marking>
+                        </incident:Handling>
+                    </stix:Incident>
+                </stix:Incidents>
+            </stix:Package>
+        </stix:Related_Package>
+    </stix:Related_Packages>
+</stix:STIX_Package>
