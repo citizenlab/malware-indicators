@@ -1,0 +1,48 @@
+uuid,event_id,category,type,value,comment,to_ids,date
+595baf52-2a08-4576-9f76-06e38e96ca05,108,Payload delivery,email-src,"aisia.anminda8@mail.com","",0,20170704
+595baf52-7340-4840-bda0-06e38e96ca05,108,Payload delivery,email-src,"hellomice@mail.com","",0,20170704
+595baf7a-6598-4ecc-ba74-06e28e96ca05,108,Payload delivery,url,"http://43.240.14.37/asdasdasadqddd12222111.php/article.asp","",1,20170704
+595bafa7-2d34-43d7-87a1-06e38e96ca05,108,Payload delivery,url,"http://chinadagitaltimes.net/2016/07/chinese-hackers-blamed-multiple-breaches-fdic","",1,20170704
+595bafe1-e518-4bfb-9701-06e28e96ca05,108,Payload delivery,ip-src,"43.240.14.37","hosted phishing page",1,20170704
+595bb024-550c-4f0e-89b0-06e38e96ca05,108,Attribution,whois-registrant-email,"aobama_5@yahoo.com","",0,20170704
+595bb071-226c-4930-9b42-06e28e96ca05,108,Payload delivery,domain,"secuerserver.com","",1,20170704
+595bb071-3318-40b2-945f-06e28e96ca05,108,Payload delivery,domain,"bowenpress.net","",1,20170704
+595bb071-3d20-4589-9055-06e28e96ca05,108,Payload delivery,domain,"bowenpress.org","",1,20170704
+595bb071-b9e0-4f44-a56e-06e28e96ca05,108,Payload delivery,domain,"datalink.one","",1,20170704
+595bb071-c44c-45ce-b8b4-06e28e96ca05,108,Payload delivery,domain,"bowenpross.com","",1,20170704
+595bb071-d1e8-4cde-9c68-06e28e96ca05,108,Payload delivery,domain,"bowenpres.com","",1,20170704
+595bb071-dcec-4872-ad35-06e28e96ca05,108,Payload delivery,domain,"epochatimes.com","",1,20170704
+595bb0af-3930-4285-9fdd-06e38e96ca05,108,Payload delivery,domain,"smtpout.secuerserver.com","",1,20170704
+595bb0af-4794-4d7f-ba4c-06e38e96ca05,108,Payload delivery,domain,"www.vnews.hk","",1,20170704
+595bb0af-5a40-459c-a05d-06e38e96ca05,108,Payload delivery,domain,"get.adobe.com.bowenpress.org","",1,20170704
+595bb0af-9bd4-4f6e-b2fa-06e38e96ca05,108,Payload delivery,domain,"hk.secuerserver.com","",1,20170704
+595bb0af-9c98-4021-9af7-06e38e96ca05,108,Payload delivery,domain,"www.mail.secuerserver.com","",1,20170704
+595bb0af-a424-469a-9a7f-06e38e96ca05,108,Payload delivery,domain,"www.secuerserver.com","",1,20170704
+595bb0af-c4b8-4124-a2b5-06e38e96ca05,108,Payload delivery,domain,"pop.secuerserver.com","",1,20170704
+595bb0af-e108-4480-aa27-06e38e96ca05,108,Payload delivery,domain,"www.bowenpress.org","",1,20170704
+595bb0cc-f258-491f-afcd-06e28e96ca05,108,Payload delivery,url,"http://get.adobe.com.bowenpress.org/Adobe/update/20161201/AdobeUpdate.html","",1,20170704
+595bb15f-4a08-4a4a-9ff5-06e38e96ca05,108,Payload delivery,url,"http://get.adobe.com.bowenpress.org/Adobe/update/20161201/AdobeUpdate20161201.exe","",1,20170704
+595bb15f-8488-4a3b-abea-06e38e96ca05,108,Payload delivery,url,"http://get.adobe.com.bowenpress.org/Adobe/update/20170312/AdobeUpdate20170312.exe","",1,20170704
+595bb15f-d000-400a-b7a9-06e38e96ca05,108,Payload delivery,url,"http://get.adobe.com.bowenpress.org/Adobe/update/20160812/AdobeUpdate20160812.exe","",1,20170704
+595bb15f-dc68-4468-9572-06e38e96ca05,108,Payload delivery,url,"http://get.adobe.com.bowenpress.org/Adobe/update/20160703/AdobeUpdate20160703.exe","",1,20170704
+595bb19a-2bec-4af4-bd28-06e28e96ca05,108,Network activity,domain,"email23.secuerserver.com","",1,20170704
+595bb19a-3be4-4267-9c73-06e28e96ca05,108,Network activity,domain,"hk.secuerserver.com","",1,20170704
+595bb19a-53fc-4c93-87b1-06e28e96ca05,108,Network activity,domain,"dns.bowenpress.org","",1,20170704
+595bb286-ee4c-4c91-91b9-06e38e96ca05,108,Payload delivery,ip-src,"45.124.24.39","Cloudie IP used for scanning",1,20170704
+595bb2d6-70e0-4d6d-bdc7-06e28e96ca05,108,Payload delivery,ip-src,"23.239.106.119","Gorilla servers malware and phishing server",1,20170704
+595bb322-0618-43dc-bd26-06e38e96ca05,108,Artifacts dropped,md5,"e0338b1f010fdc4751de5f58e4acf2ad","",0,20170704
+595bb322-0b70-4d94-873f-06e38e96ca05,108,Artifacts dropped,md5,"c1dabd54a672cbc2747c53a8041d5602","",0,20170704
+595bb322-0d44-4380-9208-06e38e96ca05,108,Artifacts dropped,md5,"d80fc6a4f175e3ab417b9f96c3b37c73","",0,20170704
+595bb322-12c0-4c0c-8d64-06e38e96ca05,108,Artifacts dropped,md5,"ac5763000ae435875f3b709a5f23ecc0","",0,20170704
+595bb322-2550-44cc-8747-06e38e96ca05,108,Artifacts dropped,md5,"19c5f8829444956ba30e023aaaec6408","",0,20170704
+595bb322-34b4-4c04-a93c-06e38e96ca05,108,Artifacts dropped,md5,"bb080489dbc98a59cac130475e019fb2","",0,20170704
+595bb322-4794-4b32-8ad7-06e38e96ca05,108,Artifacts dropped,md5,"88e027b1ef7b2da1766e6b6819bba0f0","",0,20170704
+595bb322-59ac-4310-aa50-06e38e96ca05,108,Artifacts dropped,md5,"e841ecaa44b3589120b72e60b53f39c6","",0,20170704
+595bb322-7e84-47a6-a022-06e38e96ca05,108,Artifacts dropped,md5,"95efa51b52f121cec239980127b7f96b","",0,20170704
+595bb322-88f8-4934-93ca-06e38e96ca05,108,Artifacts dropped,md5,"4ddf012d8a42ad2666e06ad2f0a8410e","",0,20170704
+595bb322-897c-4d64-99b1-06e38e96ca05,108,Artifacts dropped,md5,"2332aa40d15399179c068ab205a5303d","",0,20170704
+595bb322-90a4-47f8-9056-06e38e96ca05,108,Artifacts dropped,md5,"f282fd20d7eaebe848b5111ecdae82a6","",0,20170704
+595bb322-a12c-4e3f-b0ee-06e38e96ca05,108,Artifacts dropped,md5,"88f43fe753e64d9c536fca16979984ef","",0,20170704
+595bb322-dfec-480b-9ec1-06e38e96ca05,108,Artifacts dropped,md5,"029ba5f0f6997bc36a094e86848a5b82","",0,20170704
+595bb322-f1a0-4a70-a9ad-06e38e96ca05,108,Artifacts dropped,md5,"13b148aead5e844f7262da768873cec0","",0,20170704
+595bb322-fa5c-4ee1-b354-06e38e96ca05,108,Artifacts dropped,md5,"945de4d3a046a698aec222fc90a148ba","",0,20170704

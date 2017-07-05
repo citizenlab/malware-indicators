@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ioc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="595baf14-d8e8-4e33-be25-06e38e96ca05" last-modified="2017-07-04T00:00:00" xmlns="http://schemas.mandiant.com/2010/ioc">
+  <short_description>Event #108</short_description>
+  <description>Insider Information: An intrusion campaign targeting Chinese language news sites</description>
+  <keywords />
+  <authored_by>citizenlab</authored_by>
+  <authored_date>2017-07-04T00:00:00</authored_date>
+  <links />
+  <definition>
+    <Indicator operator="OR" id="595baf14-d8e8-4e33-be25-06e38e96ca05">
+      <IndicatorItem id="email23.secuerserver.com" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="hk.secuerserver.com" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="dns.bowenpress.org" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="secuerserver.com" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="bowenpres.com" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="bowenpress.net" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="bowenpress.org" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="bowenpross.com" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="datalink.one" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="epochatimes.com" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="get.adobe.com.bowenpress.org" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="hk.secuerserver.com" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="pop.secuerserver.com" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="smtpout.secuerserver.com" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="www.bowenpress.org" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="www.mail.secuerserver.com" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="www.secuerserver.com" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="www.vnews.hk" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="45.124.24.39" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="23.239.106.119" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="43.240.14.37" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir" />
+        <Content type="IP"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="http://43.240.14.37/asdasdasadqddd12222111.php/article.asp" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="http://chinadagitaltimes.net/2016/07/chinese-hackers-blamed-multiple-breaches-fdic" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="http://get.adobe.com.bowenpress.org/Adobe/update/20161201/AdobeUpdate.html" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="http://get.adobe.com.bowenpress.org/Adobe/update/20160703/AdobeUpdate20160703.exe" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="http://get.adobe.com.bowenpress.org/Adobe/update/20160812/AdobeUpdate20160812.exe" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="http://get.adobe.com.bowenpress.org/Adobe/update/20161201/AdobeUpdate20161201.exe" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+      <IndicatorItem id="http://get.adobe.com.bowenpress.org/Adobe/update/20170312/AdobeUpdate20170312.exe" condition="is">
+        <Context document="UrlHistoryItem" search="UrlHistoryItem/URL" type="mir" />
+        <Content type="string"></Content>
+      </IndicatorItem>
+    </Indicator>
+  </definition>
+</ioc>

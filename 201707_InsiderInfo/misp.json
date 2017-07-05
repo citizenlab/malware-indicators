@@ -1,0 +1,1412 @@
+{"response":[{
+    "Event": {
+        "id": "108",
+        "orgc_id": "2",
+        "org_id": "2",
+        "date": "2017-07-04",
+        "threat_level_id": "1",
+        "info": "Insider Information: An intrusion campaign targeting Chinese language news sites",
+        "published": true,
+        "uuid": "595baf14-d8e8-4e33-be25-06e38e96ca05",
+        "attribute_count": "47",
+        "analysis": "0",
+        "timestamp": "1499181858",
+        "distribution": "1",
+        "proposal_email_lock": false,
+        "locked": false,
+        "publish_timestamp": "1499181953",
+        "sharing_group_id": "0",
+        "Org": {
+            "id": "2",
+            "name": "citizenlab",
+            "uuid": "581b5fea-818c-441a-bd1d-49798e96ca05"
+        },
+        "Orgc": {
+            "id": "2",
+            "name": "citizenlab",
+            "uuid": "581b5fea-818c-441a-bd1d-49798e96ca05"
+        },
+        "Attribute": [
+            {
+                "id": "16407",
+                "type": "md5",
+                "category": "Artifacts dropped",
+                "to_ids": false,
+                "uuid": "595bb322-2550-44cc-8747-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181858",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "19c5f8829444956ba30e023aaaec6408",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "19c5f8829444956ba30e023aaaec6408"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16408",
+                "type": "md5",
+                "category": "Artifacts dropped",
+                "to_ids": false,
+                "uuid": "595bb322-12c0-4c0c-8d64-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181858",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "ac5763000ae435875f3b709a5f23ecc0",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "ac5763000ae435875f3b709a5f23ecc0"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16409",
+                "type": "md5",
+                "category": "Artifacts dropped",
+                "to_ids": false,
+                "uuid": "595bb322-0d44-4380-9208-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181858",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "d80fc6a4f175e3ab417b9f96c3b37c73",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "d80fc6a4f175e3ab417b9f96c3b37c73"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16410",
+                "type": "md5",
+                "category": "Artifacts dropped",
+                "to_ids": false,
+                "uuid": "595bb322-fa5c-4ee1-b354-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181858",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "945de4d3a046a698aec222fc90a148ba",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "945de4d3a046a698aec222fc90a148ba"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16411",
+                "type": "md5",
+                "category": "Artifacts dropped",
+                "to_ids": false,
+                "uuid": "595bb322-7e84-47a6-a022-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181858",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "95efa51b52f121cec239980127b7f96b",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "95efa51b52f121cec239980127b7f96b"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16412",
+                "type": "md5",
+                "category": "Artifacts dropped",
+                "to_ids": false,
+                "uuid": "595bb322-f1a0-4a70-a9ad-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181858",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "13b148aead5e844f7262da768873cec0",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "13b148aead5e844f7262da768873cec0"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16413",
+                "type": "md5",
+                "category": "Artifacts dropped",
+                "to_ids": false,
+                "uuid": "595bb322-dfec-480b-9ec1-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181858",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "029ba5f0f6997bc36a094e86848a5b82",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "029ba5f0f6997bc36a094e86848a5b82"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16414",
+                "type": "md5",
+                "category": "Artifacts dropped",
+                "to_ids": false,
+                "uuid": "595bb322-59ac-4310-aa50-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181858",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "e841ecaa44b3589120b72e60b53f39c6",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "e841ecaa44b3589120b72e60b53f39c6"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16415",
+                "type": "md5",
+                "category": "Artifacts dropped",
+                "to_ids": false,
+                "uuid": "595bb322-4794-4b32-8ad7-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181858",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "88e027b1ef7b2da1766e6b6819bba0f0",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "88e027b1ef7b2da1766e6b6819bba0f0"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16416",
+                "type": "md5",
+                "category": "Artifacts dropped",
+                "to_ids": false,
+                "uuid": "595bb322-34b4-4c04-a93c-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181858",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "bb080489dbc98a59cac130475e019fb2",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "bb080489dbc98a59cac130475e019fb2"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16417",
+                "type": "md5",
+                "category": "Artifacts dropped",
+                "to_ids": false,
+                "uuid": "595bb322-a12c-4e3f-b0ee-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181858",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "88f43fe753e64d9c536fca16979984ef",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "88f43fe753e64d9c536fca16979984ef"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16418",
+                "type": "md5",
+                "category": "Artifacts dropped",
+                "to_ids": false,
+                "uuid": "595bb322-90a4-47f8-9056-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181858",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "f282fd20d7eaebe848b5111ecdae82a6",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "f282fd20d7eaebe848b5111ecdae82a6"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16419",
+                "type": "md5",
+                "category": "Artifacts dropped",
+                "to_ids": false,
+                "uuid": "595bb322-0618-43dc-bd26-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181858",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "e0338b1f010fdc4751de5f58e4acf2ad",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "e0338b1f010fdc4751de5f58e4acf2ad"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16420",
+                "type": "md5",
+                "category": "Artifacts dropped",
+                "to_ids": false,
+                "uuid": "595bb322-0b70-4d94-873f-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181858",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "c1dabd54a672cbc2747c53a8041d5602",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "c1dabd54a672cbc2747c53a8041d5602"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16421",
+                "type": "md5",
+                "category": "Artifacts dropped",
+                "to_ids": false,
+                "uuid": "595bb322-897c-4d64-99b1-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181858",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "2332aa40d15399179c068ab205a5303d",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "2332aa40d15399179c068ab205a5303d"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16422",
+                "type": "md5",
+                "category": "Artifacts dropped",
+                "to_ids": false,
+                "uuid": "595bb322-88f8-4934-93ca-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181858",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "4ddf012d8a42ad2666e06ad2f0a8410e",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "4ddf012d8a42ad2666e06ad2f0a8410e"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16353",
+                "type": "whois-registrant-email",
+                "category": "Attribution",
+                "to_ids": false,
+                "uuid": "595bb024-550c-4f0e-89b0-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181092",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "aobama_5@yahoo.com",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "aobama_5@yahoo.com"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16374",
+                "type": "domain",
+                "category": "Network activity",
+                "to_ids": true,
+                "uuid": "595bb19a-2bec-4af4-bd28-06e28e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181466",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "email23.secuerserver.com",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "email23.secuerserver.com"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16375",
+                "type": "domain",
+                "category": "Network activity",
+                "to_ids": true,
+                "uuid": "595bb19a-3be4-4267-9c73-06e28e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181466",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "hk.secuerserver.com",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "hk.secuerserver.com"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16376",
+                "type": "domain",
+                "category": "Network activity",
+                "to_ids": true,
+                "uuid": "595bb19a-53fc-4c93-87b1-06e28e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181466",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "dns.bowenpress.org",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "dns.bowenpress.org"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16354",
+                "type": "domain",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb071-226c-4930-9b42-06e28e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181169",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "secuerserver.com",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "secuerserver.com"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16355",
+                "type": "domain",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb071-d1e8-4cde-9c68-06e28e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181169",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "bowenpres.com",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "bowenpres.com"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16356",
+                "type": "domain",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb071-3318-40b2-945f-06e28e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181169",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "bowenpress.net",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "bowenpress.net"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16357",
+                "type": "domain",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb071-3d20-4589-9055-06e28e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181169",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "bowenpress.org",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "bowenpress.org"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16358",
+                "type": "domain",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb071-c44c-45ce-b8b4-06e28e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181169",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "bowenpross.com",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "bowenpross.com"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16359",
+                "type": "domain",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb071-b9e0-4f44-a56e-06e28e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181169",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "datalink.one",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "datalink.one"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16360",
+                "type": "domain",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb071-dcec-4872-ad35-06e28e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181169",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "epochatimes.com",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "epochatimes.com"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16361",
+                "type": "domain",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb0af-5a40-459c-a05d-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181231",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "get.adobe.com.bowenpress.org",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "get.adobe.com.bowenpress.org"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16362",
+                "type": "domain",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb0af-9bd4-4f6e-b2fa-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181231",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "hk.secuerserver.com",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "hk.secuerserver.com"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16363",
+                "type": "domain",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb0af-c4b8-4124-a2b5-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181231",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "pop.secuerserver.com",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "pop.secuerserver.com"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16364",
+                "type": "domain",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb0af-3930-4285-9fdd-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181231",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "smtpout.secuerserver.com",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "smtpout.secuerserver.com"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16365",
+                "type": "domain",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb0af-e108-4480-aa27-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181231",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "www.bowenpress.org",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ]
+            },
+            {
+                "id": "16366",
+                "type": "domain",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb0af-9c98-4021-9af7-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181231",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "www.mail.secuerserver.com",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "www.mail.secuerserver.com"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16367",
+                "type": "domain",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb0af-a424-469a-9a7f-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181231",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "www.secuerserver.com",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ]
+            },
+            {
+                "id": "16368",
+                "type": "domain",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb0af-4794-4d7f-ba4c-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181231",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "www.vnews.hk",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "www.vnews.hk"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16348",
+                "type": "email-src",
+                "category": "Payload delivery",
+                "to_ids": false,
+                "uuid": "595baf52-7340-4840-bda0-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499180882",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "hellomice@mail.com",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "hellomice@mail.com"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16349",
+                "type": "email-src",
+                "category": "Payload delivery",
+                "to_ids": false,
+                "uuid": "595baf52-2a08-4576-9f76-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499180882",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "aisia.anminda8@mail.com",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "aisia.anminda8@mail.com"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16405",
+                "type": "ip-src",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb286-ee4c-4c91-91b9-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181702",
+                "comment": "Cloudie IP used for scanning",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "45.124.24.39",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "45.124.24.39"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16406",
+                "type": "ip-src",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb2d6-70e0-4d6d-bdc7-06e28e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181782",
+                "comment": "Gorilla servers malware and phishing server",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "23.239.106.119",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "23.239.106.119"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16352",
+                "type": "ip-src",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bafe1-e518-4bfb-9701-06e28e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181044",
+                "comment": "hosted phishing page",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "43.240.14.37",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ],
+                "RelatedAttribute": [
+                    {
+                        "Attribute": {
+                            "id": "94",
+                            "org_id": "2",
+                            "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                            "value": "43.240.14.37"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "16350",
+                "type": "url",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595baf7a-6598-4ecc-ba74-06e28e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499180922",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "http:\/\/43.240.14.37\/asdasdasadqddd12222111.php\/article.asp",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ]
+            },
+            {
+                "id": "16351",
+                "type": "url",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bafa7-2d34-43d7-87a1-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499180988",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "http:\/\/chinadagitaltimes.net\/2016\/07\/chinese-hackers-blamed-multiple-breaches-fdic",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ]
+            },
+            {
+                "id": "16369",
+                "type": "url",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb0cc-f258-491f-afcd-06e28e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181260",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "http:\/\/get.adobe.com.bowenpress.org\/Adobe\/update\/20161201\/AdobeUpdate.html",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ]
+            },
+            {
+                "id": "16370",
+                "type": "url",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb15f-dc68-4468-9572-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181407",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "http:\/\/get.adobe.com.bowenpress.org\/Adobe\/update\/20160703\/AdobeUpdate20160703.exe",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ]
+            },
+            {
+                "id": "16371",
+                "type": "url",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb15f-d000-400a-b7a9-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181407",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "http:\/\/get.adobe.com.bowenpress.org\/Adobe\/update\/20160812\/AdobeUpdate20160812.exe",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ]
+            },
+            {
+                "id": "16372",
+                "type": "url",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb15f-4a08-4a4a-9ff5-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181407",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "http:\/\/get.adobe.com.bowenpress.org\/Adobe\/update\/20161201\/AdobeUpdate20161201.exe",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ]
+            },
+            {
+                "id": "16373",
+                "type": "url",
+                "category": "Payload delivery",
+                "to_ids": true,
+                "uuid": "595bb15f-8488-4a3b-abea-06e38e96ca05",
+                "event_id": "108",
+                "distribution": "5",
+                "timestamp": "1499181407",
+                "comment": "",
+                "sharing_group_id": "0",
+                "deleted": false,
+                "value": "http:\/\/get.adobe.com.bowenpress.org\/Adobe\/update\/20170312\/AdobeUpdate20170312.exe",
+                "SharingGroup": [
+
+                ],
+                "ShadowAttribute": [
+
+                ]
+            }
+        ],
+        "ShadowAttribute": [
+
+        ],
+        "RelatedEvent": [
+            {
+                "Event": {
+                    "id": "94",
+                    "date": "2017-02-24",
+                    "threat_level_id": "2",
+                    "info": "FAKENEWS - phishing campaign against China critical digital media site.",
+                    "published": false,
+                    "uuid": "58b05226-2fd4-4638-ba7d-53938e96ca05",
+                    "analysis": "0",
+                    "timestamp": "1499181637",
+                    "distribution": "1",
+                    "org_id": "2",
+                    "orgc_id": "2"
+                },
+                "Org": {
+                    "id": "2",
+                    "name": "citizenlab",
+                    "uuid": "581b5fea-818c-441a-bd1d-49798e96ca05"
+                },
+                "Orgc": {
+                    "id": "2",
+                    "name": "citizenlab",
+                    "uuid": "581b5fea-818c-441a-bd1d-49798e96ca05"
+                }
+            }
+        ],
+        "Tag": [
+            {
+                "id": "14",
+                "name": "TARGET:HONGKONG",
+                "colour": "#f00000",
+                "exportable": true,
+                "org_id": false
+            },
+            {
+                "id": "7",
+                "name": "DETECT",
+                "colour": "#cccccc",
+                "exportable": true,
+                "org_id": false
+            },
+            {
+                "id": "5",
+                "name": "SOURCE:CITIZENLAB",
+                "colour": "#ffad0d",
+                "exportable": true,
+                "org_id": false
+            },
+            {
+                "id": "3",
+                "name": "TLP:GREEN",
+                "colour": "#04cc18",
+                "exportable": true,
+                "org_id": false
+            }
+        ]
+    }
+}]}
